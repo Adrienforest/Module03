@@ -1,0 +1,94 @@
+body{
+    line-height: 1.5;
+    margin: 0;
+    padding: 15px;
+}
+header {
+    text-align: center; /* Centers the text horizontally */
+    padding: 5px 0; /* Adds vertical spacing around the text */
+    border-top: 1px solid black; /* Line above */
+    border-bottom: 1px solid black; /* Line below */
+    border-right: 2cap solid black;
+    font-variant: small-caps;
+    margin: 10px 0; /* Adds spacing around the header */
+}
+
+aside {
+    text-align: right; /* Align text to the right */
+    font-size: 0.9rem;
+    padding: 10px;
+    border: none; /* Remove all borders */
+    border-right: 2.2cap solid #373461; /* Add a solid blue border to the right */
+    max-width: 30%;
+    position: absolute;
+    top: 61px; /* Position aside closer to the top */
+    right: 15px; /* Align with the right margin */
+}
+
+aside::first-line{
+    font-weight: 700;
+    font-size: 1rem;
+}
+
+/* Main Title Styling */
+h1 {
+    text-align: left; /* Aligns title to the left */
+    margin: 0 0 20px 0;
+    font-size: 3rem;
+    font-weight: bold;
+    position: relative; /* Ensures it doesn't overlap aside */
+    max-width: 60%;
+}
+article{
+    text-align: center;
+    padding: 10px;
+    margin-left: 7%;
+    margin-right: 7%;
+    background-image: url('WidgetCoLogo.gif');
+    background-repeat: no-repeat; /* Ensures the image doesn't repeat */
+    background-position: center;
+}
+/* Subheading Styling */
+h2 {
+    font-style: italic;
+    font-weight: bold;
+    text-align: center;
+    margin-top: 20px;
+    margin-bottom: 20px;
+}
+
+/* Paragraphs */
+p {
+    text-align: justify;
+    margin-bottom: 20px;
+}
+
+/* Highlight Section */
+section {
+    background-color: #fefae0; /* Light green background */
+    border: 2px solid green; /* Green border */
+    padding: 10px;
+    border-left-width: 3cap;
+    font-size: 0.95rem;
+    margin-top: 20px;
+}
+
+section a {
+    color: blue;
+    text-decoration: underline;
+}
+
+/* Footer */
+footer{
+    text-align: right; /* Aligns text to the far right */
+    font-size: 0.9rem; /* Adjust font size to match the image */
+    font-style: italic; /* Makes the text italic */
+    color: #888; /* Light gray font color for a softer look */
+    margin-top: 20px; /* Space above the footer */
+    padding: 10px 20px; /* Padding for spacing */
+    border-top: 1px solid #ccc; /* Light gray top border */
+    line-height: 1.5; /* Improves readability with spacing */
+}
+footer a{
+    color: #888;
+}
