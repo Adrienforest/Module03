@@ -18,7 +18,7 @@ aside {
     font-size: 0.9rem;
     padding: 10px;
     border: none; /* Remove all borders */
-    border-right: 2.2cap solid #373461; /* Add a solid blue border to the right */
+    border-right: 2.2cap solid #346147; /* Add a solid blue border to the right */
     max-width: 30%;
     position: absolute;
     top: 61px; /* Position aside closer to the top */
@@ -66,7 +66,7 @@ p {
 /* Highlight Section */
 section {
     background-color: #fefae0; /* Light green background */
-    border: 2px solid green; /* Green border */
+    border: 2px solid red; /* Green border */
     padding: 10px;
     border-left-width: 3cap;
     font-size: 0.95rem;
